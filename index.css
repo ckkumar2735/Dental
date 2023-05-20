@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+    padding:0px;
+    border-size:border-box;
+}
+.log{
+    width:380px;
+    
+}
+.ph{
+    
+    width:300px;
+    
+}
+.dental-nav-bg {
+    background-image: url(./images/bg-1.png);
+    width:1200;
+    height:1680;
+}
+.text-1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3D3D77;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+.text-2{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.text-3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+.btn1{
+    background: #3D3D77;
+    color:#FFFFFF;
+border-radius: 4px;
+width: 740px;
+height: 97px;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+}
+
+.box1{
+    width: 1719px;
+    height: 244px;
+    background: rgba(0, 0, 0, 0.26);
+    
+}
+.box1 .abox{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .abox img{
+	width: 30%;
+    /* mix-blend-mode:grey; */
+}
+
+.box1 .abox .vector{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.box1 .abox .vector img{
+	width: 80%;
+    /* mix-blend-mode:grey; */
+}
+.box1 .abox .vector p{
+	font-size: 24px;
+	margin-bottom: -7px;
+	font-weight: 600;
+ 
+}
+
+.box1 .abox p{
+	
+	font-weight: 600;
+	color: #FFFFFF;
+	font-size: 24px;
+	margin: 0;
+}
+
+
+
+@media (max-width: 575.98px)
+ { 
+   .log{
+        width:225px;
+        
+    }
+     /* .ph{
+        width:100px;
+        
+    } */
+    /* .ph1{
+        
+    } */
+
+    .text-1{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .text-2{
+        font-size:20px;
+    }
+    .text-3{
+        font-size:20px;
+    }
+    .btn1{
+        width: 350px;
+        height: 97px;
+        font-size: 19px;
+        
+    }
+    .text-4{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ { 
+
+    .text-1{
+        
+        font-size: 35px;
+    }
+    .text-2{
+        font-size:25px;
+    }
+}
+
